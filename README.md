@@ -4,8 +4,10 @@
 
 ### Highly recommended reading:
 
-#### A Tour of Go
+#### Basics
 * https://tour.golang.org
+* https://golang.org/cmd/go
+* https://golang.org/doc/faq
 
 #### A must-read
 * https://golang.org/doc/effective_go.html
