@@ -1,7 +1,27 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"net/http"
+)
+
+func greetFn(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "[greetFn] Welcome to %v!", r.URL)
+}
+
+type myGreet struct{}
+
+func (myGreet) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "[myGreet.ServeHTTP] Welcome to %v!", r.URL)
+}
 
 func main() {
-	fmt.Println("Hello")
+	http.HandleFunc("/foo", greetFn)
+
+	greet := myGreet{}
+	http.Handle("/bar", greet)
+
+	// https://golang.org/pkg/net/http
+	fmt.Println("Staring server...")
+	http.ListenAndServe(":80", nil)
 }
