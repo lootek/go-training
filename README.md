@@ -22,10 +22,15 @@
 * https://gobyexample.com
 * http://tmrts.com/go-patterns
 
+#### Docs
+* https://golang.org/pkg
+* https://godoc.org
+
 #### Tips
 * https://rakyll.org/go-tool-flags
 
 #### Keep up-to-date
+* https://blog.golang.org
 * https://golangweekly.com
 
 ### List of Go frameworks, libraries and software
