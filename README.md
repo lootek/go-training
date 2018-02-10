@@ -44,7 +44,9 @@
 * Debugger \
 `$ go get -u github.com/derekparker/delve/cmd/dlv`
 * Live compilation \
-`$ go get -u github.com/cespare/reflex`
+`$ go get -u github.com/cespare/reflex` \
+and then eg. \
+`reflex -r '(\.go)$' -s -- go install go-training/server && $GOPATH/bin/server`
 
 ### Building in docker
 * https://hub.docker.com/_/golang
