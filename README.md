@@ -17,6 +17,7 @@
 * https://pocketgophers.com/idiomatic-go
 * https://go-proverbs.github.io
 * https://talks.golang.org/2014/readability.slide
+* https://github.com/golang
 
 #### How-to basics
 * https://gobyexample.com
@@ -37,8 +38,9 @@
 * https://awesome-go.com
 
 ### Nice tools
-* Dependencies management \
-`curl https://glide.sh/get | sh`
+* Dependency management \
+`curl https://glide.sh/get | sh` \
+`go get -u github.com/golang/dep/cmd/dep`
 * A `go fmt` replacement \
 `$ go get -u golang.org/x/tools/cmd/goimports`
 * Debugger \
