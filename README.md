@@ -48,7 +48,7 @@
 * Live compilation \
 `$ go get -u github.com/cespare/reflex` \
 and then eg. \
-`reflex -r '(\.go)$' -s -- go install go-training/server && $GOPATH/bin/server`
+`reflex -r '(\.go)$' -s -- bash -c 'go install go-training/server && $GOPATH/bin/server'`
 
 ### Building in docker
 * https://hub.docker.com/_/golang
