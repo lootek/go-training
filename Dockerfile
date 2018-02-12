@@ -1,7 +1,6 @@
 FROM golang
 
-WORKDIR /go/src/go-training
-
+#WORKDIR /go/src/github.com/lootek/go-training
 # COPY . .
 #RUN go get -d -v ./...
 #RUN go install -v ./...
