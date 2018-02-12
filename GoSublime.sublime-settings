@@ -1,0 +1,11 @@
+{
+	"env": {
+		"PATH": "$HOME/go/bin:$PATH",
+		"GOPATH": "$GOPATH",
+		"GOROOT": "$GOROOT",
+	},
+	"autocomplete_tests": true,
+	"autocomplete_builtins": true,
+	"autocomplete_closures": true,
+	"fmt_cmd": ["goimports", "-srcdir", "$_dir"]
+}
