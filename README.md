@@ -1,6 +1,24 @@
 # go-training
 
-## Resources:
+## Purpose
+This is not intended to be a complete Golang overview but rather an intro 
+for developers already using other languages. 
+
+It's kind of a background for my short talk + live coding session 
+in which I wanted to focus on some of the very Golang-specific aspects.
+
+## Idea
+The project consists of 2 parts:
+* an HTTP server (with embedded in-memory storage for int-s)
+* an HTTP client (for communication with the server)
+
+Both are capable of handling both XML and JSON in a basic way.
+
+## Disclaimer
+The code has some drawbacks from the architectural point of view. 
+It also doesn't make sense to have a server storing int-s in that way.  
+
+## Golang Resources:
 
 ### Highly recommended reading:
 
