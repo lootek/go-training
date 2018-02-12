@@ -18,11 +18,24 @@ Both are capable of handling both XML and JSON in a basic way.
 The code has some drawbacks from the architectural point of view. 
 It also doesn't make sense to have a server storing int-s in that way.  
 
+## Quick start
+
+1. Clone this repo, `cd` to it
+2. `$ docker build -t go-training .`
+3. `$ ./run-docker.sh`
+4. Inside the docker run any of:
+   * `> ./watch.sh server` for live-reload experience of the server part
+   * `> ./watch.sh cli` for live-reload experience of the CLI part
+   * `> go install && $GOPATH/bin/<binary>` to run any of the compiled/installed binaries
+
+   or basically do anything with the `go` tool.
+
 ## Golang Resources:
 
 ### Highly recommended reading:
 
 #### Basics
+* https://play.golang.org
 * https://tour.golang.org
 * https://golang.org/cmd/go
 * https://golang.org/doc/faq
