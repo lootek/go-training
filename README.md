@@ -53,6 +53,7 @@ It also doesn't make sense to have a server storing int-s in that way.
 #### How-to basics
 * https://gobyexample.com
 * http://tmrts.com/go-patterns
+* https://github.com/golang/go/wiki
 
 #### Docs
 * https://golang.org/pkg
