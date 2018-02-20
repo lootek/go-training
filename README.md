@@ -41,6 +41,7 @@ It also doesn't make sense to have a server storing int-s in that way.
 * https://golang.org/doc/faq
 
 #### A must-read
+* https://golang.org/doc/code.html
 * https://golang.org/doc/effective_go.html
 
 #### Do as Gophers do
@@ -65,6 +66,11 @@ It also doesn't make sense to have a server storing int-s in that way.
 #### Keep up-to-date
 * https://blog.golang.org
 * https://golangweekly.com
+
+#### Nice to know
+* https://github.com/golang/go/wiki/GoForCPPProgrammers
+* https://talks.golang.org/2015/state-of-go-may.slide
+* https://docs.google.com/document/d/1nr-TQHw_er6GOQRsF6T43GGhFDelrAP0NqSS_00RgZQ
 
 ### List of Go frameworks, libraries and software
 * https://awesome-go.com
