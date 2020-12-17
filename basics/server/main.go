@@ -7,7 +7,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/lootek/go-training/server/storage"
+	"github.com/lootek/go-training/basics/server/storage"
 )
 
 type myGreet struct{}

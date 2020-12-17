@@ -6,9 +6,10 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/lootek/go-training/cli/json"
-	"github.com/lootek/go-training/cli/xml"
 	"github.com/pkg/errors"
+
+	"github.com/lootek/go-training/basics/cli/json"
+	"github.com/lootek/go-training/basics/cli/xml"
 )
 
 const (
